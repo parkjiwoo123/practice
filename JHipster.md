@@ -1,4 +1,4 @@
-#JHipster 란?
+# JHipster 란?
 
 > *매우 빠르고 간단하게, Spring boot와 angular 어플리케이션을 생성할 수 있는 프로젝트*
 
@@ -18,7 +18,7 @@
 
 
 
-##Microservice 구성 요소
+## Microservice 구성 요소
 
 - JHipster 레지스트리 : 마이크로 서비스 아키텍처의 필수요소, 다른 모든 구성요소를 서로 연결하고 서로 통신할 수 있게 함
 
@@ -42,7 +42,7 @@
 
 
 
-##JHipster 설치 
+## JHipster 설치 
 
 #### 준비사항 및 유의사항
 
@@ -90,7 +90,7 @@ jhipster 이전 버전 설치 : npm install -g generator-jhipster@1.2.0
 
 
 
-##JHipster 예제
+## JHipster 예제
 
 
 
@@ -110,7 +110,7 @@ jhipster 이전 버전 설치 : npm install -g generator-jhipster@1.2.0
 
 
 
-######설치시작 및 응용프로그램 생성( 설치방법은 3가지 존재 (yarn 을 이용한 설치, npm을 이용한 설치, 방랑자설치) - npm을 이용해서 설치한다.
+###### 설치시작 및 응용프로그램 생성( 설치방법은 3가지 존재 (yarn 을 이용한 설치, npm을 이용한 설치, 방랑자설치) - npm을 이용해서 설치한다.
 
 
 
@@ -163,7 +163,7 @@ jhipster 이전 버전 설치 : npm install -g generator-jhipster@1.2.0
 
 
 
-######엔티티에 대해서 필요한 것
+###### 엔티티에 대해서 필요한 것
 
 	데이터베이스 테이블 / JPA 엔티티 / Spring 데이터 JPA저장소 / CRUD 연산을 가진 Spring MVC REST Controller
 	라우터, 구성요소서비스 / HTML 보기 /
@@ -190,7 +190,7 @@ jhipster 이전 버전 설치 : npm install -g generator-jhipster@1.2.0
 
 
 
-##JHipster Micro-Service 
+## JHipster Micro-Service 
 
 > 프론트 엔드 ( Angular 프론트 엔드는 게이트 웨이에서 생성됨) 가 있고, JHipster 레지스트리와 함께 작동하여 구성, 검색 및 관리 되는 jhipster 응용프로그램 유형
 
@@ -198,7 +198,7 @@ jhipster 이전 버전 설치 : npm install -g generator-jhipster@1.2.0
 
 <br>
 
-#####JHipster Service 특징
+##### JHipster Service 특징
 
 - REST API요청을 처리하는 JHipster 생성 응용프로그램
 
@@ -214,7 +214,7 @@ jhipster 이전 버전 설치 : npm install -g generator-jhipster@1.2.0
 
 <br>
 
-#####마이크서비스 아키텍처에서 엔티티 생성
+##### 마이크서비스 아키텍처에서 엔티티 생성
 
 - microservices 애플리케이션에서 엔티티를 생성 -> Jhipster UML 또는 JDL Studio를 사용하여 복잡한 엔티티 및 관계를 생성할 수있다
 
@@ -230,7 +230,7 @@ jhipster 이전 버전 설치 : npm install -g generator-jhipster@1.2.0
 
 <br>
 
-#####Hazelcast를 사용한 분산캐싱
+##### Hazelcast를 사용한 분산캐싱
 
 애플리케이션이 SQL 데이터 베이스를 사용한 경우 JHipster는 마이크로 서비스와 함께 2차 수준의 캐싱솔루션을 제안
 
